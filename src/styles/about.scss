@@ -1,11 +1,13 @@
-.about{
-    color:peru;
-    text-align: left;
-    margin:20px 0 20px 10px;
+@import 'variables.scss';
+
+.about {
+  color: $primary-color;
+  text-align: left;
+  margin-top: $base-margin;
 }
 
-.about_content{
-    margin-left: 10px;
-    text-align: left;
-    line-height: 20px;
+.about_content {
+  margin-top: $base-margin;
+  text-align: left;
+  line-height: 20px;
 }
