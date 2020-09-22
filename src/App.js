@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Avatar from './Avatar';
+import Avatar from './component/avatar';
+import Title from './component/title';
 
 class App extends Component {
   render() {
     return (
       <main className = "app">
         <Avatar />
+        <Title />
       </main>
     );
   }
